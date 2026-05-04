@@ -5,7 +5,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // 👉 अपना API डालो यहाँ
-const API_URL = "https://your-api-url.com/api/data";
+const API_URL = "https://aniplay-backend.onrender.com/api/data";
 
 // cache
 let cachedData = [];
