@@ -1,5 +1,3 @@
-require("dotenv").config();
-
 const express = require("express");
 const axios = require("axios");
 const cors = require("cors");
@@ -85,7 +83,6 @@ app.get("*", (req, res) => {
     return res.status(404).send("Anime not found");
   }
 
-  // 🧠 AUTO FIELD HANDLING
   const title = item.title || "AniPlay";
   const description =
     item.description ||
